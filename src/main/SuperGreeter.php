@@ -9,6 +9,6 @@ class Greeter {
 
     setcookie("TestCookie", $value, time()+3600, "/~path/", ".com", 1); // Noncompliant
 
-    return "Hello!";
+    return "Hello World!";
   }
 }
